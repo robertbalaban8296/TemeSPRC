@@ -1,0 +1,12 @@
+Author: Balaban Robert-Adrian, 343C2
+Platforma de testare: Ubuntu 18.04
+
+Tema a fost usoara si a fost rezolvata in aproximativ 4 ore.
+Idee:
+	Clientul apleaza executabilul mycompute cu parametrii conform enuntului. Se deschide clientul, fisierul de citire si
+fisierul de iesire dupa care pentru fiecare linie citita se creeaza o structura de input si se apeleaza procedura remote (get_compute)
+de pe server (care o sa intoarca o structura de output). Pe server se construiesc numerele prime pana la numarul trimis (daca n-au fost
+construite inainte), se verifica daca e impar. Daca DA -> il cauta in vectorul numerelor prime si intoarce rezultatul corespunzator.
+Daca este par (2 se considera ca fiind prim) -> aplica conjectura lui goldbach si intoarce output-ul corespunzator. Se revine la client
+si se scrie in fisier;
+ 
